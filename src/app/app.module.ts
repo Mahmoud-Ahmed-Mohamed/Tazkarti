@@ -27,6 +27,7 @@ import { DataViewModule } from 'primeng/dataview';
 import { HeaderComponent } from './header/header.component';
 import { QRCodeModule } from 'angularx-qrcode';
 import { ClipboardModule } from '@angular/cdk/clipboard';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 @NgModule({
@@ -66,7 +67,7 @@ import { ClipboardModule } from '@angular/cdk/clipboard';
     }),
     ClipboardModule,
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
