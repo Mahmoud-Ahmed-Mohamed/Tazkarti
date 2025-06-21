@@ -1,0 +1,11 @@
+<div  [dir]="'DIR' | translate">
+  <span class="flex align-items-center">
+    <p-button class="back" icon="pi pi-arrow-{{ 'DIRWORD' | translate }}" [text]="true" severity="secondary"></p-button>
+    <span class="ticket-no">{{"TICKETNO" | translate}} #2342</span>
+  </span>
+
+  <p-button class="edit" [outlined]="true" [text]="true" severity="secondary">
+    <img src="../../assets/images/edit.svg" alt="">
+    <span>{{ "EDIT" | translate }}</span>
+  </p-button>
+</div>

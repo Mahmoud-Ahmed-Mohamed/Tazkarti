@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/primeicons/primeicons.css";
+@font-face {
+  font-family: "ArabicFont";
+  src: url("../src/assets/NeoSansArabic.ttf") format("truetype");
+}
+* {
+  font-family: "ArabicFont";
+  font-size: 13px;
+}
+body {
+  margin: 0;
+  background: #F3F5F7;
+}

@@ -1,0 +1,28 @@
+div {
+  height: 100vh;
+  padding: 10px 10px;
+  // flex flex-wrap justify-content-around align-items-center
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  app-header {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  app-chartuid {
+    background: #ffffff;
+    width: 65%;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  app-carduid {
+    width: 33%;
+  }
+  app-tableuid {
+    // margin-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}

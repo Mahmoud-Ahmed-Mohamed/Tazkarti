@@ -1,0 +1,24 @@
+<div class="ticket">
+  <img src="../../assets/images/trash.svg" alt="" [pTooltip]="'Delete'" tooltipPosition="bottom">
+
+  <h3>{{ "SHOWTICKET" | translate }}</h3>
+  <span class="p-input-icon-right">
+    <i class="pi pi-clone"  [cdkCopyToClipboard]="ticketLink"></i>
+    <input [disabled]="'disabled'" type="text" pInputText [(ngModel)]="ticketLink" />
+  </span>
+  <p>{{ "TICKETUNTIL" | translate }}</p>
+
+  <div  class="big-line">
+    <div class="left"></div>
+    <div class="line"></div>
+    <div class="right"></div>
+  </div>
+
+  <div class="ticket-qr">
+    <qrcode [qrdata]="ticketLink" [width]="82" [colorDark]="'#000000'" [colorLight]="'#ffffff'" [errorCorrectionLevel]="'M'"></qrcode>
+    <span>
+      <p-button class="share" label="مشاركة" icon="pi pi-send" size="small"></p-button>
+      <p>{{ "SALE" | translate}} 25%</p>
+    </span>
+  </div>
+</div>

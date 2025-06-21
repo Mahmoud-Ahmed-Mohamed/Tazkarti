@@ -1,0 +1,119 @@
+.card{
+   .ticket-search {
+    width: 25%;
+  }
+  .ticket-active {
+    width: 15%;
+  }
+  ::ng-deep {
+    .icon-search {
+      button {
+        background: #fff;
+        color: #8b8b8b;
+        border-color: #8b8b8b;
+        padding: 10px;
+      }
+    }
+    // .setting {
+    //   button {
+    //     padding: 10px;
+    //   }
+    // }
+    .p-datatable .p-datatable-header {
+      background-color: inherit;
+      padding: 10px 0;
+      border: none;
+    }
+    p-inputSwitch {
+      .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+        background: #8a74f9;
+      }
+    }
+    .new-ticket {
+      button {
+        background: #8a74f9;
+      }
+    }
+    p-paginator {
+      .p-paginator-last {
+        display: none;
+      }
+      .p-paginator-first {
+        display: none;
+      }
+    }
+  }
+  tr {
+    th {
+      text-align: center;
+      color: #abaab1;
+      background: #f8f8f9;
+      font-size: 13px;
+      font-weight: 500;
+      ::ng-deep {
+        p-sortIcon svg {
+          color: #abaab1;
+          margin: 0 5px;
+        }
+      }
+    }
+    td {
+      text-align: center;
+      padding: 0;
+      font-weight: 600;
+      .ticket-download {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+        .note {
+          width: 130px;
+          padding: 0 5px;
+          .name {
+            text-align: start;
+            margin: 0;
+            font-size: 14px;
+          }
+          .details {
+            text-align: start;
+            margin: 0;
+            opacity: 40%;
+            font-size: 13px;
+          }
+        }
+        img {
+          width: 25px;
+          cursor: pointer;
+        }
+      }
+      ::ng-deep {
+        .ticket-download {
+          button {
+            display: flex;
+            justify-content: center;
+            width: 40px;
+            background: #f4f2ff;
+            border-radius: 8px;
+            padding: 10px;
+            &:hover {
+              background-color: #E7EAED;
+            }
+          }
+        }
+      }
+    }
+  }
+  ::ng-deep {
+    // .p-paginator .p-component .ng-star-inserted {
+    //   display: flex;
+    //   flex-direction: row-reverse;
+    // }
+    .p-paginator-left-content {
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
+  .p-paginator .p-component .ng-star-inserted {
+    display: none;
+  }
+}

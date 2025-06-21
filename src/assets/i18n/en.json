@@ -1,0 +1,23 @@
+{
+  "DIR": "ltr",
+  "DIRWORD": "left",
+  "EDIT": "Edit",
+  "TICKETNO": "Ticket No.",
+  "FLEXDIR": "flex-row",
+  "SHOWTICKET": "Show the movie ticket",
+  "TICKETUNTIL": "Available until July 15, 2023",
+  "SALE": "Sale",
+  "TICKETSALES": "Ticket Sales",
+  "SEARCH": "Search keyword",
+  "ACTIVATED": "Activated",
+  "NOTACTIVATED": "Not Activated",
+  "NEWTICKET": "New Ticket",
+  "NAME": "Name",
+  "TICKETNUMBER": "Ticket Number",
+  "TICKETVALUE": "Ticket Value",
+  "CINEMAS": "Cinemas",
+  "PEOPLE": "Number Of People",
+  "VIEWS": "Number Of Views",
+  "TICKET": "Ticket",
+  "FROM": "Out of"
+}

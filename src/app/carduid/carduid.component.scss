@@ -1,0 +1,109 @@
+.ticket {
+  background: #8A74F9;
+  background-image: url("../../assets/images/Maskgroup.png");
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // width: 300px;
+  // height: 100px;
+  img {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+  }
+  i {
+    cursor: pointer;
+  }
+  .big-line {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 42px;
+  }
+  .line {
+    width: 100%;
+    border-bottom: 2px white dashed;
+    position: absolute;
+    opacity: 40%;
+  }
+  .left {
+    position: absolute;
+    background: #F3F5F7;
+    width: 24px;
+    height: 27px;
+    border-radius: 100%;
+    z-index: 1;
+    left: -12px;
+  }
+  .right {
+    position: absolute;
+    background: #F3F5F7;
+    width: 24px !important;
+    height: 27px !important;
+    border-radius: 100%;
+    z-index: 1;
+    right: -12px;
+  }
+  h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .p-input-icon-right {
+    input{
+      background: #f9f9f9;
+      opacity: 100%;
+      border: 1px solid #e9eaea;
+      z-index: 1;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+  p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  .ticket-qr {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    qrcode {
+      border-radius: 4px;
+      overflow: hidden;
+      height: 82px;
+    }
+    span {
+      width: 60%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      ::ng-deep {
+        .p-button {
+          background: inherit;
+          color: #ffffff;
+          border-color: #ffffff;
+        }
+      }
+      p {
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 400;
+        margin-bottom: 0;
+        text-align: end;
+        width: 25%;
+      }
+    }
+  }
+}
