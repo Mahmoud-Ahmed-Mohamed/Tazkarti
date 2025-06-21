@@ -40,7 +40,7 @@ export class TableuidComponent implements OnInit {
     for(let i = 0; i < 10; i++) {
       this.persons.push({
         id: i+1,
-        image: `../../assets/images/image${(i%4)+1}.png`,
+        image: `assets/images/image${(i%4)+1}.png`,
         name: "أحمد محمود",
         phone: "0123456789",
         ticketNumber: "C-101",

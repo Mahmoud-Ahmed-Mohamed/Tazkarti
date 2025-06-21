@@ -20,7 +20,7 @@
               <input pInputText type="text" (input)="dt2.filterGlobal($any($event.target), 'contains')" placeholder="{{ 'SEARCH' | translate }}" />
           </span>
           <p-button class="icon-search setting">
-            <img src="../../assets/images/setting-4.svg" alt="">
+            <img src="assets/images/setting-4.svg" alt="">
           </p-button>
           <p-button class="icon-search" icon="pi pi-sort-alt"></p-button>
         </span>
@@ -64,12 +64,12 @@
         <td>{{ person.numberOfViews }}</td>
         <td>
           <div class="ticket-download">
-            <p-button [text]="true"><img src="../../assets/images/ticket.svg" alt=""></p-button>
+            <p-button [text]="true"><img src="assets/images/ticket.svg" alt=""></p-button>
             <div class="note">
               <h5 class="name">{{ person.ticket }}</h5>
               <p class="details">9mb - PDF</p>
             </div>
-            <img src="../../assets/images/download.svg" alt="" [pTooltip]="'Download'">
+            <img src="assets/images/download.svg" alt="" [pTooltip]="'Download'">
           </div>
         </td>
       </tr>
