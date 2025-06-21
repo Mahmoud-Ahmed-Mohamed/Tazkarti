@@ -57,7 +57,7 @@ import { ClipboardModule } from '@angular/cdk/clipboard';
     QRCodeModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      defaultLanguage: "ar",
+      defaultLanguage: "en",
       loader: {
         provide: TranslateLoader,
         useFactory: createTranslateLoader,

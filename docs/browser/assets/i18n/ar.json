@@ -1,0 +1,23 @@
+{
+  "DIR": "rtl",
+  "DIRWORD": "right",
+  "EDIT": "تعديل",
+  "TICKETNO": "تذكرة رقم",
+  "FLEXDIR": "flex-row-reverse",
+  "SHOWTICKET": "عرض التذكرة الخاصة بالفيلم",
+  "TICKETUNTIL": "فعال حتي 15 يوليو 2023",
+  "SALE": "خصم",
+  "TICKETSALES": "مبيعات التذاكر",
+  "SEARCH": "بحث عن ...",
+  "ACTIVATED": "مفعلة",
+  "NOTACTIVATED": "غير مفعلة",
+  "NEWTICKET": "حجز تذكرة جديدة",
+  "NAME": "المستخدم",
+  "TICKETNUMBER": "رقم التذكرة",
+  "TICKETVALUE": "قيمى التذكرة",
+  "CINEMAS": "السينمات",
+  "PEOPLE": "عدد الأشخاص",
+  "VIEWS": "عدد مرات الشراء",
+  "TICKET": "التذكرة",
+  "FROM": "من اصل"
+}
